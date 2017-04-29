@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 function animate(){
     "use strict";
@@ -7,6 +8,12 @@ function animate(){
 }
 /*
 >>>>>>> origin/master
+=======
+function animate(){
+    document.write("<p>Animated...</p>");
+}
+/*
+>>>>>>> parent of 8762b49... Fixed a range of problems
 =======
 function animate(){
     document.write("<p>Animated...</p>");
