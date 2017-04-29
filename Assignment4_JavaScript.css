@@ -1,0 +1,49 @@
+body {
+    width: 80%;
+    padding: 4em 4em 4em 30em;
+    background-color: aliceblue;
+}
+
+#animation_div {
+    
+    border: 1em;
+    padding: 3em;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    background: white;
+    border-color: black;
+    width: 50%;
+    height: 10em;
+}
+
+tr {
+    align-content: center;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    vertical-align: center;
+}
+
+th {
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    text-align: center;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
+.red {
+    color: red;
+}
+
+.green {
+    color:green;
+}
+
+.blue {
+    color: blue;
+}
