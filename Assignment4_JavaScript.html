@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <title>Assignment 4: JavaScript</title>
-    <link rel="stylesheet" type="text/css" href="https://rawgit.com/Albaraa-B/SWE363/master/Assignment4_JavaScript.css">
-    
-    <script type="text/javascript" src="https://rawgit.com/Albaraa-B/SWE363/master/Assignment4_JavaScript.js"></script>
+    <link rel="stylesheet" type="text/css" href="Assignment4_JavaScript.css">
+
+    <script type="text/javascript" src="Assignment4_JavaScript.js"></script>
 </head>
 
 
-<body>
+<body onload="setFontSize()">
     <h1>TextColoring</h1>
     <div id="animation_div">
     </div>
@@ -60,9 +60,9 @@
                 </td>
 
                 <td>
-                    <input type="radio" name="size" value="36" checked="checked">36 <span class="underline">p</span><span>t</span>
-                    <input type="radio" name="size" value="48">48 <span class="underline">p</span><span>t</span>
-                    <input type="radio" name="size" value="60">60 <span class="underline">p</span><span>t</span>
+                    <input type="radio" name="size" value="36" checked="checked" onClick="setFontSize()">36 <span class="underline">p</span><span>t</span>
+                    <input type="radio" name="size" value="48" onClick="setFontSize()">48 <span class="underline">p</span><span>t</span>
+                    <input type="radio" name="size" value="60" onClick="setFontSize()">60 <span class="underline">p</span><span>t</span>
                 </td>
             </tr>
         </table>

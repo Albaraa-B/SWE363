@@ -7,8 +7,9 @@ function stopAnimatingIt() {
     document.getElementById("stop_btn").disabled = true;
     document.getElementById("start_btn").disabled = false;
     document.getElementById("JSDebugging").innerHTML += "Done<br>Clearing animation.........";
-    if (animation != null)
+    if (animation != null) {
         clearInterval(animation);
+    }
     document.getElementById("JSDebugging").innerHTML += "Done<br>Stopped<br>";
 
 }
@@ -16,13 +17,13 @@ function stopAnimatingIt() {
 
 function animateIt() {
     stop = false;
-    document.getElementById("JSDebugging").innerHTML += "managing buttons.........."
+    document.getElementById("JSDebugging").innerHTML += "managing buttons..........";
     document.getElementById("stop_btn").disabled = false;
     document.getElementById("start_btn").disabled = true;
     document.getElementById("JSDebugging").innerHTML += "Done<br>Clearing old animation.........";
     if (animation != null)
         animation = null;
-    document.getElementById("JSDebugging").innerHTML += "Done<br>"
+    document.getElementById("JSDebugging").innerHTML += "Done<br>";
     document.getElementById("animation_div").innerHTML = "<span>Animating...</span>";
     var text = document.getElementById("inputArea").value;
     document.getElementById("JSDebugging").innerHTML = "Initiating vars:<br><p>Input:" + text + "</p>";
@@ -33,8 +34,9 @@ function animateIt() {
     for (i = 0; i < colors.length; i++) {
         var color = colors[i].value;
 
-        if (color != "blank")
+        if (color != "blank") {
             selected_colors += color + " ";
+        }
         document.getElementById("JSDebugging").innerHTML += color;
 
         debug += " " + color;
@@ -71,6 +73,7 @@ function animateIt() {
         } else
             clearInterval(animation);
     }
+}
 
 
     function returnSpanForColor(color) {
