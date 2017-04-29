@@ -1,49 +1,71 @@
 body {
     width: 80%;
-    padding: 4em 4em 4em 30em;
-    background-color: aliceblue;
+    height: 60%;
+    padding: 10em;
+    background-color: azure;
+    text-align: center;
 }
 
 #animation_div {
-    
-    border: 1em;
-    padding: 3em;
+    display: inline-block;
+    width: 15em;
+    height: 2em;
+    max-width: 15em;
+    max-height: 2em;
+    border: 1pt solid aquamarine;
+    margin: auto;
+    padding: 2em;
     text-align: center;
-    align-self: center;
-    align-content: center;
     background: white;
-    border-color: black;
-    width: 50%;
-    height: 10em;
+}
+
+#controls {
+    align-content: center;
+    float:right;
 }
 
 tr {
-    align-content: center;
-    text-align: center;
-    align-self: center;
-    align-items: center;
-    vertical-align: center;
+@@ -35,6 +42,11 @@ th {
+    text-decoration: underline;
 }
 
-th {
-    text-decoration: underline;
-    text-decoration-color: aquamarine;
-    text-align: center;
-}
-
-.underline {
-    text-decoration: underline;
+p {
+    max-height: inherit;
+    max-width: inherit;
 }
 
 
 .red {
     color: red;
-}
-
-.green {
-    color:green;
-}
+@@ -46,4 +58,32 @@ th {
 
 .blue {
     color: blue;
 }
+
+.f36 {
+    font-size: 36pt;
+    width: 15em;
+    height: 2em;
+    max-width: 15em;
+    max-height: 2em;
+}
+
+.f48 {
+    font-size: 48pt;
+    width: 15em;
+    height: 2em;
+    max-width: 15em;
+    max-height: 2em;
+}
+
+.f60 {
+    font-size: 60pt;
+    width: 15em;
+    height: 2em;
+    max-width: 15em;
+    max-height: 2em;
+}
+
+inputArea {
+    resize: both;
