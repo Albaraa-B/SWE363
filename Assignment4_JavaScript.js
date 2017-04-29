@@ -1,4 +1,5 @@
 function animate(){
+    "use strict";
     document.write("<p>Animated...</p>");
 }
 /*
