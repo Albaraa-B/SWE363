@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+=======
+function animate(){
+    "use strict";
+    document.write("<p>Animated...</p>");
+}
+/*
+>>>>>>> origin/master
 var stop = false;
         var animation;
 
