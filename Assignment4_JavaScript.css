@@ -44,6 +44,10 @@ p {
     color: blue;
 }
 
+.green {
+    color: green;
+}
+
 .f36 {
     font-size: 36pt;
     width: 15em;
