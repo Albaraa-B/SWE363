@@ -52,7 +52,7 @@ function animateIt() {
     var color_index = 0;
     document.getElementById("animation_div").innerHTML = "";
     document.getElementById("JSDebugging").innerHTML += "<br>" + document.getElementById("animation_div").className + "<br>" + text_array + "   " + text_array.length + "<br>Selected Colors:" + selected_colors + "<br>";
-    animation = setInterval(frame, 1000);
+    animation = setInterval(frame, 750);
 
     function frame() {
 
